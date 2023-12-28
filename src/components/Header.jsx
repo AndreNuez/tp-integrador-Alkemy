@@ -16,7 +16,7 @@ function Header() {
         <header>
             <nav>
                 <div>
-                    <img className='logo' src='./src/assets/img/logo.png' alt='logo'></img>
+                    <img className='logo' src='../src/assets/img/logo.png' alt='logo'></img>
                 </div>
                 <h2>Shop Cart</h2>
                 <div>

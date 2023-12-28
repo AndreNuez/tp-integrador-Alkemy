@@ -1,9 +1,9 @@
 #Trabajo Práctico Integrador
 
 ##Instalar
-´´´
+```
 npm install
-´´´
+```
 
 ##Ejecutar
 ```

@@ -1,11 +1,11 @@
-#Trabajo Práctico Integrador
+# Trabajo Práctico Integrador
 
-##Instalar
+## Instalar
 ```
 npm install
 ```
 
-##Ejecutar
+## Ejecutar
 ```
 npm run dev
 ```
@@ -19,7 +19,7 @@ npm run dev
 5) Por último haz click en "Enviar" y ¡listo! A continuación verás los detalles de tu pedido.
 
 
-##Enlaces
+## Enlaces
 
 [GitHub](https://github.com/AndreNuez/tp-integrador-Alkemy)
 [Vercel]()

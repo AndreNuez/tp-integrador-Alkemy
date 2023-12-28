@@ -1,5 +1,5 @@
 # Trabajo Práctico Integrador
-Carrito de compras desarrollado con React como proyecto final de bootcamp Alkemy.
+Carrito de compras desarrollado con React para proyecto final de bootcamp Alkemy.
 
 ## Instalar
 ```

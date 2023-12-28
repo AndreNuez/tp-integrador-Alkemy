@@ -26,6 +26,7 @@ function Order() {
                                 </li>
                             ))}
                         </ul>
+                        <br />
                         <p><b>Total a abonar $ {(order.price).toFixed(2)}</b></p>
                     </div>
                     <div className='divAceptar'>

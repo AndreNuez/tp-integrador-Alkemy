@@ -1,0 +1,227 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  width: 50px;
+  margin-left: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.btnCarrito {
+  text-decoration: none;
+  display: block;
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: white;
+  color: grey;
+}
+
+.btnCarrito:hover {
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
+
+.catalogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: grey;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.containerCards {
+  width: 100%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #9896a1;
+  box-shadow: 0px 1px 10px;
+  cursor: default;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px;
+  transform: translateY(-3%);
+}
+
+.card img {
+  width: 50%;
+  height: 150px;
+}
+
+.card .contenido {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column; 
+  text-align: center;
+  color: white;
+}
+
+.card .contenido p {
+  flex-grow: 1;
+  font-size: small;
+}
+
+.card button {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: white;
+  color: grey;
+}
+
+.card button:hover {
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
+
+.carritoMain {
+  display: none;
+  margin: 20px auto;
+  text-align: center;
+  margin: 50px;
+}
+
+.carrito {
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.carrito td, .carrito th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.carrito tr:hover {background-color: #c2c2c2;}
+
+.trCarrito {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #9896a1;
+  color: white;
+  text-transform: uppercase;
+}
+
+.carrito button{
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  color: grey;
+}
+
+.carrito button:hover{
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  width: 75%;
+}
+
+.formularioMain {
+  display: none;
+  margin: 50px;
+}
+
+.btnCart {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  color: grey;
+}
+
+.btnCart:hover {
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formInputs {
+  padding: 20px;
+  column-count: 2;
+  column-gap: 50px;
+}
+
+.form input {
+  width: 100%;
+  margin: 10px;
+  padding:10px; 
+  border-radius:4px; 
+  border: 1px solid black;
+  border-color:#242124; 
+  font-family:sans-serif; 
+}
+
+.detallesMain{
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 10px;
+}
+
+.detalles{
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.divAceptar{
+  margin-top: 10px;
+  align-self: center;
+}
